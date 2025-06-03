@@ -74,7 +74,7 @@ int linked_list_remove(struct linked_list *list, struct node *element) {
 }
 
 int linked_list_print(struct linked_list *list, void (*print_callback)(struct node *)) {
-    if (!list) {
+    if (!list || !print_callback) {
         fprintf(stderr, "linked_list_print error: NULL parameter passed!\n");
         return 1;
     }
