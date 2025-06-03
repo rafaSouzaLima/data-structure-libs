@@ -1,3 +1,10 @@
+/*
+    Copyright (c) 2025 Rafael S Lima
+
+    This software is licensed under the MIT License.
+    See the LICENSE file for more details.
+*/
+
 #include "list.h"
 
 int linked_list_init(struct linked_list *list) {

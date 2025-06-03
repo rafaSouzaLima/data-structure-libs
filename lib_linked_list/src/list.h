@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) 2025 Rafael S Lima
+ * 
+ * This software is licensed under the MIT License. 
+ * See the LICENSE file for more details.
+ */
+
 #ifndef LIST_H_INCLUDED
 #define LIST_H_INCLUDED
 
